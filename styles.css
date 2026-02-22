@@ -502,7 +502,7 @@ button {
    3. FEATURED PRODUCTS
    ======================================== */
 .products {
-    padding: 120px 0;
+    padding: 80px 0;
     background: var(--color-white);
 }
 
@@ -653,7 +653,7 @@ button {
    4. COLLECTIONS
    ======================================== */
 .collections {
-    padding: 120px 0;
+    padding: 80px 0;
     background: var(--color-off-white);
 }
 
@@ -767,7 +767,7 @@ button {
    5. ABOUT SECTION
    ======================================== */
 .about {
-    padding: 120px 0;
+    padding: 80px 0;
     background: var(--color-white);
 }
 
@@ -835,7 +835,7 @@ button {
    6. CONTACT SECTION
    ======================================== */
 .contact {
-    padding: 120px 0;
+    padding: 80px 0;
     background: var(--color-off-white);
 }
 
@@ -1770,7 +1770,7 @@ button {
     .collections,
     .about,
     .contact {
-        padding: 80px 0;
+        padding: 60px 0;
     }
 
     .logo-text {
@@ -1835,7 +1835,18 @@ button {
     }
 
     .hero-trust-badges {
-        gap: 24px;
+        gap: 16px;
+        padding-top: 24px;
+    }
+
+    .hero-content {
+        padding: 0 16px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero-tagline {
+        margin-bottom: 40px;
     }
 
     .btn {
@@ -1856,6 +1867,7 @@ button {
 
     .collections-grid {
         grid-template-columns: 1fr;
+        gap: 20px;
     }
 
     .about-stats {
